@@ -1,0 +1,9 @@
+UCA,Safety_Constraint,Level,Verification
+UCA-1,Planner must not continue driving when a pedestrian or vehicle is within stopping distance,System-level,Closed-loop scenario testing
+UCA-2,Emergency braking must be triggered when a detected pedestrian or vehicle is inside critical distance,System-level,Closed-loop simulation
+UCA-3,Perception-to-braking latency must remain below a safe threshold,Model-level,Latency benchmark
+UCA-4,Planner must behave conservatively at intersections when traffic-light state is unknown,System-level,Intersection simulation
+UCA-5,Planner must suppress emergency braking unless a credible stopping condition is present,System-level,False-positive scenario testing
+UCA-6,Operator must receive salient warning information during critical situations,System-level,Human-factor evaluation
+UCA-7,System must detect ODD violations and trigger safe fallback,System-level,ODD/fallback test
+UCA-8,Manual takeover must remain active until the vehicle reaches a safe state,System-level,Operator protocol review and simulation

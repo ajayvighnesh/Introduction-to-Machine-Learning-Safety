@@ -1,0 +1,21 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Control Structure">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="env" value="Environment / Urban Road" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="20" y="260" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="cam" value="Forward-facing RGB Camera" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="210" y="260" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="ped" value="Pedestrian Classifier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="410" y="160" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="veh" value="Vehicle Classifier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="410" y="260" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="tl" value="Traffic-light Classifier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="410" y="360" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="dist" value="Distance Oracle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="410" y="460" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="plan" value="Rule-based Planner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="650" y="280" width="150" height="70" as="geometry"/></mxCell>
+        <mxCell id="act" value="Vehicle Actuators" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="880" y="280" width="150" height="70" as="geometry"/></mxCell>
+        <mxCell id="motion" value="Vehicle Motion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="880" y="420" width="150" height="70" as="geometry"/></mxCell>
+        <mxCell id="dash" value="Visual Dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="650" y="60" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="human" value="Human Safety Operator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="880" y="60" width="150" height="60" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

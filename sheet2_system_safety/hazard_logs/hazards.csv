@@ -1,0 +1,7 @@
+ID,Hazard,Losses,Likelihood,Severity
+H-1,Vehicle moves while pedestrian is in path,L-1,Medium,High
+H-2,Vehicle fails to stop at required intersection,"L-1;L-2;L-3",Medium,High
+H-3,Emergency braking triggered unnecessarily,"L-2;L-4",Medium,Medium
+H-4,Operation outside ODD without detection,"L-1;L-2;L-4",High,High
+H-5,Operator fails to intervene,"L-1;L-2",Medium,High
+H-6,Vehicle continues toward another road user inside stopping distance,"L-1;L-2",Medium,High

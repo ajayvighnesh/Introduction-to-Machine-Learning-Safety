@@ -1,0 +1,9 @@
+UCA,Causal_Scenario,Root_Cause,Related_Constraint
+UCA-1,Pedestrian detector misses a pedestrian under shadow or glare,Training data lacks lighting variation,Planner must not continue near uncertain detections
+UCA-2,Planner never receives a positive pedestrian detection,False negative classifier output,Emergency braking constraint
+UCA-3,Correct detection arrives too late,High inference or control latency,Latency constraint
+UCA-4,Planner treats traffic-light presence as insufficient evidence to stop,Detector lacks red yellow green state awareness,Conservative intersection handling
+UCA-5,Vehicle detector falsely detects a vehicle ahead,False-positive perception output,Credible stopping condition constraint
+UCA-6,Operator does not notice automation failure,Monitoring fatigue during long shift,Warning and takeover protocol
+UCA-7,Weather changes to rain but system remains autonomous,ODD violation not detected,ODD detection and fallback
+UCA-8,Operator releases override before vehicle is stable,Mode confusion or unclear feedback,Manual takeover persistence constraint

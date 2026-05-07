@@ -1,0 +1,9 @@
+ID,Controller,Control_Action,UCA_Type,Hazards,Unsafe_Scenario
+UCA-1,Planner,Continue driving,Provided unsafely,"H-1;H-6",Pedestrian or vehicle ahead while driving continues
+UCA-2,Planner,Emergency brake,Not provided,"H-1;H-6",No braking for pedestrian or vehicle
+UCA-3,Planner,Emergency brake,Wrong timing,"H-1;H-6",Braking issued too late
+UCA-4,Planner,Continue driving,Wrong duration,H-2,Vehicle enters intersection unsafely
+UCA-5,Planner,Emergency brake,Provided unsafely,H-3,Unnecessary hard braking
+UCA-6,Human operator,Manual brake override,Not provided,H-5,No human intervention
+UCA-7,Human operator,Steering override,Wrong timing,"H-4;H-5",Delayed steering correction
+UCA-8,Human operator,Manual override,Wrong duration,"H-4;H-5",Override released too early
